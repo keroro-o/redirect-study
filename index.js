@@ -10,5 +10,5 @@ const server = http.createServer((req, res) => {
 const port = 8000;
 
 server.listen(port, () => {
-  console.info(`ポート ${port} 番のサーバーが起動しました`);
+  console.info(`ポート ${port} 番でサーバーを起動しました`);
 });
